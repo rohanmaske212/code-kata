@@ -31,3 +31,20 @@ Submit a GitHub / Bitbucket repo for review. No ZIP files!
 ### Do I need to write tests for connecting to API ?
 
 That can be ommitted.
+
+
+## How to Run it ? 
+
+sbt run 
+
+![sbt_run](https://github.com/rohanmaske212/code-kata/assets/23370955/722cd1d3-6506-4609-81af-35b4479b8177)
+
+## How to Run Docker ? 
+
+sbt docker:publishLocal
+
+and 
+
+sbt docker run <name of a docker Image>
+
+
