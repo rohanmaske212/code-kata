@@ -1,0 +1,16 @@
+# SBT specific
+target/
+project/target/
+
+# IDE files
+.idea/
+
+# Logs
+*.log
+
+# Compiled files
+*.class
+
+# User-specific files
+*.sbt.history
+*.lastUpdated
